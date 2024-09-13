@@ -1,0 +1,29 @@
+.header{
+  position: absolute;
+  bottom: 25px;
+  display: flex;
+  flex-direction: row;
+  background: #042940;
+  height: 65px;
+  width: fit-content;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5rem;
+}
+
+
+.header-item{
+  font-weight: 600;
+  font-size: 24px;
+  color: #D6D58E;
+  padding-right: 25px;
+  padding-left: 25px;
+
+  transition: 0.1s ease-in-out;
+  cursor: pointer;
+}
+
+.header-item:hover{
+  font-size: 30px;
+  color: #DBF227;
+}
